@@ -1,0 +1,77 @@
+{
+  "me": {
+    "angularFile": {
+      "component": {
+        "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compA/comp-a.component.ts"
+      },
+      "template": {
+        "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compA/comp-a.component.html"
+      }
+    },
+    "selectorName": "app-comp-a",
+    "className": "CompAComponent"
+  },
+  "children": [
+    {
+      "me": {
+        "angularFile": {
+          "component": {
+            "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compC/comp-c.component.ts"
+          },
+          "template": {
+            "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compC/comp-c.component.html"
+          }
+        },
+        "selectorName": "app-comp-c",
+        "className": "CompCComponent"
+      },
+      "children": []
+    },
+    {
+      "me": {
+        "angularFile": {
+          "component": {
+            "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compB/comp-b.component.ts"
+          },
+          "template": {
+            "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compB/comp-b.component.html"
+          }
+        },
+        "selectorName": "app-comp-b",
+        "className": "CompBComponent"
+      },
+      "children": [
+        {
+          "me": {
+            "angularFile": {
+              "component": {
+                "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compD/comp-d.component.ts"
+              },
+              "template": {
+                "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compD/comp-d.component.html"
+              }
+            },
+            "selectorName": "app-comp-d",
+            "className": "CompDComponent"
+          },
+          "children": []
+        },
+        {
+          "me": {
+            "angularFile": {
+              "component": {
+                "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compE/comp-e.component.ts"
+              },
+              "template": {
+                "fileName": "/Users/mac/Documents/dev/IdeaProjects/ComponentTree/src/test/resources/component-node-spec/compE/comp-e.component.html"
+              }
+            },
+            "selectorName": "app-comp-e",
+            "className": "CompEComponent"
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}
