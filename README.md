@@ -11,12 +11,11 @@ The dependency is expressed as json. If it's not clear what I mean by that, refe
 This tool is tested in the enviroment below. It should work if you have Gradle and JDK installed in your machine.
 
 ```terminal
-Last login: Tue Sep 22 13:17:05 on console
-mac@macnoMacBook-Pro ~ % sw_vers
-ProductName: Mac OS X
+mac@macnoMacBook-Pro ComponentTree % sw_vers
+ProductName:    Mac OS X
 ProductVersion: 10.15.6
-BuildVersion: 19G2021
-mac@macnoMacBook-Pro ~ % gradle -v
+BuildVersion:   19G2021
+mac@macnoMacBook-Pro ComponentTree % gradle -v
 
 ------------------------------------------------------------
 Gradle 6.5
@@ -31,11 +30,10 @@ Ant:          Apache Ant(TM) version 1.10.7 compiled on September 1 2019
 JVM:          13.0.2 (Oracle Corporation 13.0.2+8)
 OS:           Mac OS X 10.15.6 x86_64
 
-mac@macnoMacBook-Pro ~ % java -v
-Unrecognized option: -v
-Error: Could not create the Java Virtual Machine.
-Error: A fatal exception has occurred. Program will exit.
-mac@macnoMacBook-Pro ~ %
+mac@macnoMacBook-Pro ComponentTree % java --version
+openjdk 13.0.2 2020-01-14
+OpenJDK Runtime Environment (build 13.0.2+8)
+OpenJDK 64-Bit Server VM (build 13.0.2+8, mixed mode, sharing)
 ```
 
 ## How to use this project
@@ -51,7 +49,7 @@ java -jar build/libs/ComponentTree-1.0-SNAPSHOT.jar path/to/your/angular/project
 
 ## Note
 
-This tool is based on the assumption that your project structure is the same as the one created by Angular CLI. More specifically, this tool doesn't work if your component file (xxx.component.ts) is not in the same directory with template file (xxx.component.html). You don't have to need template file if you directly define template in ts file.
+This tool is based on the assumption that your project structure is same as the one created by Angular CLI. More specifically, this tool doesn't work if your component file (xxx.component.ts) is not in the same directory with template file (xxx.component.html). You don't need template file if you directly define template in ts file.
 
 ## TODO
 
